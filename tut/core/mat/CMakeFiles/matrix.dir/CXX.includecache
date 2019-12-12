@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atharv/Desktop/ImgProc/tut/core/mat/matrix.cpp
+opencv2/core.hpp
+/home/atharv/Desktop/ImgProc/tut/core/mat/opencv2/core.hpp
+iostream
+-
+

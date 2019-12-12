@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atharv/Desktop/ImgProc/tut/core/scanLookupTime/code.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+

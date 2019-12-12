@@ -1,0 +1,4 @@
+/home/atharv/Desktop/ImgProc/tut/useBasic/CMakeFiles/rebuild_cache.dir
+/home/atharv/Desktop/ImgProc/tut/useBasic/CMakeFiles/dispimg.dir
+/home/atharv/Desktop/ImgProc/tut/useBasic/CMakeFiles/edit_cache.dir
+/home/atharv/Desktop/ImgProc/tut/useBasic/CMakeFiles/cpimg.dir
