@@ -8,7 +8,8 @@ matrices made using copy constructors and assignments point to the same obj, any
 ***************************************************
 
 Mat A,C;	//creates header parts
-A = imread(argv[1], IMREAD_COLOR);	//allocate matrix using a method
+A = imread(argv[1], IMREAD_COLOR);	
+//allocate matrix using a method
 
 MatB(A); //using copy contructor
 C = A; //Assignment operator
@@ -33,5 +34,9 @@ Mat G;
 A.copyTo(G);
 
 ----------------------------------------------
+
+#### Specifying type of matrix
+CV_[The number of bits per item][Signed or Unsigned or float][Type Prefix]C[The channel number]
+
 
 
