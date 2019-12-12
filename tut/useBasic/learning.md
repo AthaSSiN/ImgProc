@@ -5,21 +5,21 @@ to include all opencv headers, use #include <opencv2/opencv.hpp>
 
 using namespace cv; using namespace std; is imp to make code short
 
-## imread() function: 
+### imread() function: 
 loads image specified in first arg (imgName of argv[1]) and takes 2nd parameters : -1,0,1
 
 -1 : load as is
 0: load in grayscale
 1: load in BGR
 
-## display image 
+### display image 
 using namedWindow( <windowName>, WINDOW_AUTOSIZE);
 and then imshow(<windowName>, <matrixName>);
 
-## convert image from one type to another (like BGR to grayscale) using cvtColor()
+### convert image from one type to another (like BGR to grayscale) using cvtColor()
 Mat grad_img
 cvtColor( <originalMat>, <newMat>, COLOR_BGR2GRAY);
 
-## save this new matrix by using imwrite()
+### save this new matrix by using imwrite()
 imwrite("<path/to/file/fileName.format>", <newMat>);
 
