@@ -1,0 +1,8 @@
+# ignore CMakeFiles
+tut/**/CMakeFiles/
+
+#ignore CMake stuff
+
+tut/**/CMake*.*
+tut/**/*.cmake
+tut/**/cmake*.*
