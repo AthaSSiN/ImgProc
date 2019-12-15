@@ -23,3 +23,5 @@ cvtColor( <originalMat>, <newMat>, COLOR_BGR2GRAY);
 ### save this new matrix by using imwrite()
 imwrite("<path/to/file/fileName.format>", <newMat>);
 
+### Move window to given coordinates:
+`moveWindow( atom_window, 0, 200 );`
