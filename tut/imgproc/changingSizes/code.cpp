@@ -14,7 +14,7 @@ int main( int argc, char** argv )
             " * [ESC] -> Close program \n" << endl;
     
     // Loads an image
-    Mat src = imread( "img.png" );
+    Mat src = imread( "../../img.png" );
     // Check if image is loaded fine
     /*if(src.empty()){
         printf(" Error opening image\n");

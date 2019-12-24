@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 int main(int argc, char** argv)
 {  
-    Mat src = imread("src.jpg", IMREAD_GRAYSCALE);
+    Mat src = imread("../../src.jpg", IMREAD_GRAYSCALE);
     // Show source image
     imshow("src", src);
     // Transform source image to gray if it is not already
