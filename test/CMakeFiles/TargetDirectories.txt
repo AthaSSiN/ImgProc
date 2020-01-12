@@ -1,0 +1,3 @@
+/mnt/ntfs/AUV/ImgProc/test/CMakeFiles/rebuild_cache.dir
+/mnt/ntfs/AUV/ImgProc/test/CMakeFiles/code.dir
+/mnt/ntfs/AUV/ImgProc/test/CMakeFiles/edit_cache.dir
